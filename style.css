@@ -20,7 +20,7 @@ p{
 
 .buttons{
   display: flex;
-  width: 201px;
+  width: 200px;
   justify-content: space-between;
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
