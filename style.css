@@ -20,7 +20,7 @@ p{
 
 .buttons{
   display: flex;
-  width: 250px;
+  width: 200px;
   justify-content: space-between;
   margin-bottom: 30px;
   transition: all 0.3s ease-in-out;
@@ -29,8 +29,8 @@ p{
 #rock,
 #paper,
 #scissors{
-  padding: 7px 10px;
-  font-size: 30px;
+  padding: 10px 15px;
+  font-size: 40px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
