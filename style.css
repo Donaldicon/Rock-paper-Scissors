@@ -10,10 +10,11 @@ body{
 
 h1{
   font-size: 30px;
+  text-align: center;
 }
 
 p{
-  font-size: 27px;
+  font-size: 20px;
   font-weight: bold;
 }
 
@@ -21,7 +22,8 @@ p{
   display: flex;
   width: 200px;
   justify-content: space-between;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  transition: all 0.3s ease-in-out;
 }
 
 #rock,
@@ -31,6 +33,7 @@ p{
   font-size: 40px;
   border: none;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 #rock{
@@ -45,30 +48,24 @@ p{
   background-color: green;
 }
 
-.result{
-  font-size: 25px;
+#result{
+  font-size: 16px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 25px;
 }
 
 .value{
-  font-size: 25px;
+  font-size: 16px;
   font-weight: bold;
 }
 
 #your-score{
   color: blue;
-  margin-right: 45px;
+  margin-right: 10px;
 }
 
 #computer-score{
   color: red;
-}
-
-@media screen and (max-width: 480px){
-  .value{
-    font-size: 28px;
-  }
 }
 
 #rock:hover,

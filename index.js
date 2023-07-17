@@ -29,11 +29,11 @@ function playRound(playerSelection, computerSelection) {
     (playerSelection === "scissors" && computerSelection === "paper")){
       yourScore++;
       yourScoreEl.textContent = yourScore;
-      return "You win! " + playerSelection + "beats " + computerSelection;
+      return "You win! " + playerSelection + " beats " + computerSelection;
     } else {
       computerScore++;
       computerScoreEl.textContent = computerScore;
-      return "You lose! " + computerSelection + "beats " + playerSelection;
+      return "You lose! " + computerSelection + " beats " + playerSelection;
     }
   
 }
